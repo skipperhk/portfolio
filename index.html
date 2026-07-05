@@ -3,35 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
+
 <body>
-    <section>
+    <nav>
+        <div class="name">Gift Habila</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <header id="home">
         <div class="profile-img-container">
-            <img class="profile-img" src="dog3.jpeg" width="150" height="150" alt="Image">
+            <img class="profile-img" src="profile.jpg" width="150" height="150" alt="Image">
         </div>
-        <button id="cv-btn">VIEW MY CV</button>
+        <div class="header-content">
+            <h1>Hi, I'm Gift Habila</h1>
+            <p>Software Engineer</p>
+            <button id="cv-btn">VIEW MY CV</button>
+            <div class="social-icons">
+                <a href="https://github.com/skipperhk" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/gift-habila-97b1a9350" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ante eros, luctus luctus lorem at, dapibus rutrum urna. Fusce at dui in dui dapibus vehicula. Vivamus magna mi, bibendum ut convallis vitae, porttitor in sem. Nam id cursus mi. Morbi id pellentesque risus. Phasellus sed ante ac leo rhoncus tempus et id tellus. Vestibulum tincidunt venenatis justo vel interdum. Ut quis condimentum elit. Integer semper, ante eget sodales ultrices, tortor urna faucibus massa, id mollis nunc ipsum et purus. Duis quis lacinia erat. Praesent condimentum non sem nec volutpat. Phasellus hendrerit neque eget mollis varius. In at odio sit amet nisi lobortis sollicitudin et at quam.
+        <!-- I'm a Software Engineering student who loves building things from scratch,
+        from web apps to productivity tools. When I'm not coding or debugging, 
+        I'm creating Notion templates and sharing dev content online. 
+        Always learning, always shipping. -->
+        </p>
     </section>
 
-    <!-- <section>
-        <h1>About Me</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ante eros, luctus luctus lorem at, dapibus rutrum urna. Fusce at dui in dui dapibus vehicula. Vivamus magna mi, bibendum ut convallis vitae, porttitor in sem. Nam id cursus mi. Morbi id pellentesque risus. Phasellus sed ante ac leo rhoncus tempus et id tellus. Vestibulum tincidunt venenatis justo vel interdum. Ut quis condimentum elit. Integer semper, ante eget sodales ultrices, tortor urna faucibus massa, id mollis nunc ipsum et purus. Duis quis lacinia erat. Praesent condimentum non sem nec volutpat. Phasellus hendrerit neque eget mollis varius. In at odio sit amet nisi lobortis sollicitudin et at quam.</p>
-    </section> -->
-
-    <section>
-        <div>
-            <button id="contact-btn">Contact me</button>
-        </div>
-    </section>
-
-    <section>
-        <form>
-            <input type="text" name="name" placeholder="Name">
-            <input type="email" name="email" placeholder="Email">
-            <textarea name="message" placeholder="Message"></textarea>
-            <button type="submit">Submit</button>
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form class="form">
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message" rows="5"></textarea>
+            <button type="submit">Send message</button>
         </form>
     </section>
+    <script src="index.js"></script>
 </body>
 </html>
