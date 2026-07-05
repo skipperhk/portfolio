@@ -95,7 +95,8 @@ h1 {
     margin: 0 auto;
     max-width: 600px;
     padding: 80px 40px;
-    border: 1px solid #0b7590;
+    border-top: 1px solid #0b7590;
+    border-bottom: 1px solid #0b7590;
     text-align: center;
     background-color: #0d0f14;
 }
