@@ -1,4 +1,4 @@
 const cvBtn = document.getElementById("cv-btn");
 cvBtn.addEventListener("click", () => {
-  window.open("resumeTwo.pdf", "_blank");
+  window.open("Resume2.pdf", "_blank");
 });
